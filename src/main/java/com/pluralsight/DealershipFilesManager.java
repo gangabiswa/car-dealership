@@ -21,7 +21,7 @@ public class DealershipFilesManager {
                 vehicles.add(vehicle);
             }
             if (dealershipInfo != null && dealershipInfo.length == 3) {
-                return new Dealership(dealershipInfo[0], dealershipInfo[1], dealershipInfo[2], vehicles);
+                return new Dealership(dealershipInfo[0], dealershipInfo[1], dealershipInfo[2]);
             }
         } catch (IOException | NumberFormatException e) {
             e.printStackTrace();
